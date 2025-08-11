@@ -89,41 +89,6 @@ java -cp src App
 
 ---
 
-## File Structure
-
-```
-src/
-  App.java
-  UML.png
-  Game/
-    CommonEnums/
-      Symbol.java
-    Controller/
-      BoardGames.java
-      Game_Controller/
-        TicTacToeGame.java
-    GameStateHandlers/
-      GameState.java
-      Concrete_States/
-        DrawState.java
-        OTurnState.java
-        OWonState.java
-        XTurnState.java
-        XWonState.java
-      Context/
-        GameContext.java
-    PlayerStrategies/
-      PlayerStrategy.java
-      Concrete_Player_Strategy/
-        HumanPlayerStrategy.java
-    Utilities/
-      Board.java
-      Player.java
-      Position.java
-```
-
----
-
 ## License
 
 This project is for educational purposes.
